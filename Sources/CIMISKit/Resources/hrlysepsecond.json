@@ -1,0 +1,1909 @@
+{
+    "Data": {
+        "Providers": [
+            {
+                "Name": "cimis",
+                "Type": "station",
+                "Owner": "water.ca.gov",
+                "Records": [
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0100",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "57.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "57.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "98",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.1",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "151",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0200",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "55.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "55.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.7",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "15",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "163",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0300",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "56",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "55.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.8",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "15.3",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "182",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0400",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "57.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "57.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "100",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.8",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.2",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "179",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0500",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "58.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "100",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "2.5",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.5",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "128",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2.6",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0600",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "58.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58.2",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-39",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.5",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.6",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "54",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0700",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "58.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-13",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": "R",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.9",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "35",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.9",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "43",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1",
+                            "Qc": "I",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0800",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "59.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "124",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "1.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "245",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.5",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "111",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "0900",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "61.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "60.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "336",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "95",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "1.9",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "608",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "18",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "133",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1000",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "63.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "60.5",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "341",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "90",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.9",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "643",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "18",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "196",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1100",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "66.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "61.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "584",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "84",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "3.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "980",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "18.8",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "10",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "4.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1200",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "68.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "60.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.02",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "983",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.02",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "77",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "3.3",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "63.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "1555",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "18",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "289",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "4.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1300",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "68.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.02",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "996",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.02",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "73",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "5.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "1572",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.6",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "267",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "6.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1400",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "66.3",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "60.2",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "706",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "81",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "6.7",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64.5",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "1153",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.8",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "308",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "6.9",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1500",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "65.3",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "568",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0.01",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "83",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "7.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "64.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "956",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.6",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "303",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "7.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1600",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "62.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "77",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "87",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "3",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.3",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "249",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.9",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "324",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "3.3",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1700",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "64.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "133",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "84",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "2.7",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "283",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.6",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "347",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "3.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1800",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "65.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "116",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "79",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "2.5",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "215",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.9",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "321",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2.7",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "1900",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "63.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-6",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "87",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "2.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "58",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.5",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "324",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "2000",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "61.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59.2",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-43",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "92",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "2.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17.2",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "336",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "2.6",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "2100",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "60.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "59",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-43",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "94",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "17",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "17",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "4.5",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "2200",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "59.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-43",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "94",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "1.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.5",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "65",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.5",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "2300",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "58.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "57.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-43",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "96",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "1.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.2",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "109",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.6",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2023-09-02",
+                        "Julian": "245",
+                        "Hour": "2400",
+                        "Station": "263",
+                        "Standard": "english",
+                        "ZipCodes": "95532, 95567",
+                        "Scope": "hourly",
+                        "HlyAirTmp": {
+                            "Value": "59.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyDewPnt": {
+                            "Value": "58.1",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlyEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyNetRad": {
+                            "Value": "-43",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyAsceEto": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyAsceEtr": {
+                            "Value": null,
+                            "Qc": "N",
+                            "Unit": "(in)"
+                        },
+                        "HlyPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "HlyRelHum": {
+                            "Value": "97",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "HlyResWind": {
+                            "Value": "0.7",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "HlySoilTmp": {
+                            "Value": "65.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "HlySolRad": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "HlyVapPres": {
+                            "Value": "16.5",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "HlyWindDir": {
+                            "Value": "96",
+                            "Qc": " ",
+                            "Unit": "(°)"
+                        },
+                        "HlyWindSpd": {
+                            "Value": "1.2",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

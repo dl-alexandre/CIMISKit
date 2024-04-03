@@ -1,0 +1,247 @@
+{
+    "Data": {
+        "Providers": [
+            {
+                "Name": "cimis",
+                "Type": "station",
+                "Owner": "water.ca.gov",
+                "Records": [
+                    {
+                        "Date": "2020-01-05",
+                        "Julian": "5",
+                        "Station": "259",
+                        "Standard": "english",
+                        "ZipCodes": "95536, 95540, 95551",
+                        "Scope": "daily",
+                        "DayAirTmpAvg": {
+                            "Value": "45",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMax": {
+                            "Value": "55.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMin": {
+                            "Value": "36.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayDewPnt": {
+                            "Value": "42.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAsceEto": {
+                            "Value": "0.04",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayPrecip": {
+                            "Value": "0.04",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayRelHumAvg": {
+                            "Value": "91",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMax": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMin": {
+                            "Value": "71",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DaySoilTmpAvg": {
+                            "Value": "48.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DaySolRadAvg": {
+                            "Value": "169",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "DayVapPresAvg": {
+                            "Value": "9.3",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "DayWindRun": {
+                            "Value": "128.9",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "DayWindSpdAvg": {
+                            "Value": "5.4",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2020-01-06",
+                        "Julian": "6",
+                        "Station": "259",
+                        "Standard": "english",
+                        "ZipCodes": "95536, 95540, 95551",
+                        "Scope": "daily",
+                        "DayAirTmpAvg": {
+                            "Value": "42.2",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMax": {
+                            "Value": "56.7",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMin": {
+                            "Value": "35.5",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayDewPnt": {
+                            "Value": "39.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAsceEto": {
+                            "Value": "0.04",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayPrecip": {
+                            "Value": "0",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayRelHumAvg": {
+                            "Value": "91",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMax": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMin": {
+                            "Value": "62",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DaySoilTmpAvg": {
+                            "Value": "47.4",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DaySolRadAvg": {
+                            "Value": "222",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "DayVapPresAvg": {
+                            "Value": "8.3",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "DayWindRun": {
+                            "Value": "123",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "DayWindSpdAvg": {
+                            "Value": "5.1",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    },
+                    {
+                        "Date": "2020-01-07",
+                        "Julian": "7",
+                        "Station": "259",
+                        "Standard": "english",
+                        "ZipCodes": "95536, 95540, 95551",
+                        "Scope": "daily",
+                        "DayAirTmpAvg": {
+                            "Value": "42.9",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMax": {
+                            "Value": "50",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAirTmpMin": {
+                            "Value": "35.8",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayDewPnt": {
+                            "Value": "42",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DayAsceEto": {
+                            "Value": "0.02",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayPrecip": {
+                            "Value": "0.42",
+                            "Qc": " ",
+                            "Unit": "(in)"
+                        },
+                        "DayRelHumAvg": {
+                            "Value": "97",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMax": {
+                            "Value": "99",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DayRelHumMin": {
+                            "Value": "81",
+                            "Qc": " ",
+                            "Unit": "(%)"
+                        },
+                        "DaySoilTmpAvg": {
+                            "Value": "46.6",
+                            "Qc": " ",
+                            "Unit": "(F)"
+                        },
+                        "DaySolRadAvg": {
+                            "Value": "98",
+                            "Qc": " ",
+                            "Unit": "(Ly/day)"
+                        },
+                        "DayVapPresAvg": {
+                            "Value": "9.1",
+                            "Qc": " ",
+                            "Unit": "(mBars)"
+                        },
+                        "DayWindRun": {
+                            "Value": "156.3",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        },
+                        "DayWindSpdAvg": {
+                            "Value": "6.5",
+                            "Qc": " ",
+                            "Unit": "(MPH)"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
