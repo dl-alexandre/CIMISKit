@@ -7,7 +7,8 @@
 
 import Foundation
 
-@Observable class AnnualPrecipFetcher {
+@Observable
+public class AnnualPrecipFetcher {
     var isLoading: Bool = false
     var errorMessage: String? = nil
     

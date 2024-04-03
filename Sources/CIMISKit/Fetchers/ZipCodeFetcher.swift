@@ -7,7 +7,8 @@
 
 import Foundation
 
-@Observable class ZipCodeFetcher: ObservableObject {
+@Observable
+public class ZipCodeFetcher: ObservableObject {
     var isLoading: Bool = false
     var errorMessage: String? = nil
     

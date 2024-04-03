@@ -9,7 +9,7 @@ import Foundation
 
 
 @MainActor
-class WeatherFetcher: ObservableObject {
+public class WeatherFetcher: ObservableObject {
     
     @Published var dailyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
     @Published var weeklyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))

@@ -8,7 +8,8 @@
 import Foundation
 
 
-@Observable class StationFetcher: ObservableObject {
+@Observable 
+public class StationFetcher: ObservableObject {
     var isLoading: Bool = false
     var errorMessage: String? = nil
     
