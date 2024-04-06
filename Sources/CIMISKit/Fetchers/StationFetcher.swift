@@ -10,8 +10,8 @@ import Foundation
 
 @Observable 
 public class StationFetcher: ObservableObject {
-    var isLoading: Bool = false
-    var errorMessage: String? = nil
+ public var isLoading: Bool = false
+ public var errorMessage: String? = nil
     
     let appState = AppState()
     let service: APIServiceProtocol
