@@ -6,6 +6,7 @@
  //
 
 import Foundation
+import MapKit
 
 public struct Station: Codable, Identifiable, Hashable {
  public var id = UUID()
