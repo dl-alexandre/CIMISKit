@@ -9,16 +9,16 @@ import Foundation
 
 public struct Station: Codable, Identifiable, Hashable {
  public var id = UUID()
-    public let stationNbr: String 
-    let name, city: String
-    let regionalOffice: RegionalOffice
-    let county, connectDate, disconnectDate: String
-    let isActive, isEtoStation: Is
-    let elevation: String
-    let groundCover: GroundCover
-    let hmsLatitude, hmsLongitude: String
-    let zipCodes: [String]
-    let sitingDesc: String
+    public let stationNbr: String
+ public let name, city: String
+ public let regionalOffice: RegionalOffice
+ public let county, connectDate, disconnectDate: String
+ public let isActive, isEtoStation: Is
+ public let elevation: String
+ public let groundCover: GroundCover
+ public let hmsLatitude, hmsLongitude: String
+ public let zipCodes: [String]
+ public let sitingDesc: String
 
     enum CodingKeys: String, CodingKey {
         case stationNbr = "StationNbr"
