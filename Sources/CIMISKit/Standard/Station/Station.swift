@@ -9,7 +9,8 @@ import Foundation
 
 public struct Station: Codable, Identifiable, Hashable {
  public var id = UUID()
-    let stationNbr, name, city: String
+    public let stationNbr: String 
+    let name, city: String
     let regionalOffice: RegionalOffice
     let county, connectDate, disconnectDate: String
     let isActive, isEtoStation: Is
