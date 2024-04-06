@@ -24,7 +24,7 @@ public class WeatherFetcher: ObservableObject {
     
     
     let appState = AppState()
-    let service: APIServiceProtocol
+ public  let service: APIServiceProtocol
 //    let precipTotal: Double
     
  public init(service: APIServiceProtocol? = nil) {

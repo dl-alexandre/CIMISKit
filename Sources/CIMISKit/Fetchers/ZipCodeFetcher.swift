@@ -13,7 +13,7 @@ public class ZipCodeFetcher: ObservableObject {
  public var errorMessage: String? = nil
     
     let appState = AppState()
-    let service: APIServiceProtocol
+ public  let service: APIServiceProtocol
     
  public init(service: APIServiceProtocol? = nil) {
   self.service = service ?? APIService()
