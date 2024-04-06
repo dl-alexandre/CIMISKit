@@ -15,9 +15,9 @@ public class ZipCodeFetcher: ObservableObject {
     let appState = AppState()
     let service: APIServiceProtocol
     
-    init(service: APIServiceProtocol = APIService()) {
-        self.service = service
-    }
+ public init(service: APIServiceProtocol? = nil) {
+  self.service = service ?? APIService()
+ }
     
 /// @State var zipData = ZipCodeModel(stations: [ZipCode]())
 

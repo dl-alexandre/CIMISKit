@@ -27,12 +27,9 @@ public class WeatherFetcher: ObservableObject {
     let service: APIServiceProtocol
 //    let precipTotal: Double
     
-    init(service: APIServiceProtocol = APIService()/*, station: Int = Int()*/) {
-        self.service = service
-        
-      //  fetchWeeklyForecast(station: station)
-        //fetchStandardHourForecast()
-    }
+ public init(service: APIServiceProtocol? = nil) {
+  self.service = service ?? APIService()
+ }
     
 //    static var precipTotal: Double {
 //        dailyData.cimisData.providers[0].records.map { $0.dailyPrecip.value ?? 0 }.reduce(0, +)

@@ -16,8 +16,8 @@ public class StationFetcher: ObservableObject {
     let appState = AppState()
     let service: APIServiceProtocol
     
-    init(service: APIServiceProtocol = APIService()) {
-        self.service = service
+    public init(service: APIServiceProtocol? = nil) {
+        self.service = service ?? APIService()
     }
     
 ///    @State var stationData = StationModel(stations: [Station]())

@@ -15,9 +15,9 @@ public class AnnualPrecipFetcher {
     let appState = AppState()
     let service: APIServiceProtocol
     
-    init(service: APIServiceProtocol = APIService()) {
-        self.service = service
-    }
+ public init(service: APIServiceProtocol? = nil) {
+  self.service = service ?? APIService()
+ }
 
     @MainActor static func errorState() -> AnnualPrecipFetcher {
         let fetcher = AnnualPrecipFetcher()

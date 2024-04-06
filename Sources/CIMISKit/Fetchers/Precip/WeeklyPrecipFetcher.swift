@@ -15,9 +15,9 @@ public class WeeklyPrecipFetcher {
     let appState = AppState()
     let service: APIServiceProtocol
     
-    init(service: APIServiceProtocol = APIService()) {
-        self.service = service
-    }
+ public init(service: APIServiceProtocol? = nil) {
+  self.service = service ?? APIService()
+ }
     
     @MainActor static func errorState() -> WeeklyPrecipFetcher {
         let fetcher = WeeklyPrecipFetcher()
