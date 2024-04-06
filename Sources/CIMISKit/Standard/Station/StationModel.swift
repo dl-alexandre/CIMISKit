@@ -13,4 +13,9 @@ public struct StationModel: Codable {
     enum CodingKeys: String, CodingKey {
         case stations = "Stations"
     }
+ 
+ public init(from decoder: Decoder) throws {
+  let container = try decoder.container(keyedBy: CodingKeys.self)
+  stations = try container.decode([Station].self, forKey: .stations)
+ }
 }
