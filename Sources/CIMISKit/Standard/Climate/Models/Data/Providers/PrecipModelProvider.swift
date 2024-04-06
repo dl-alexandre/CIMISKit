@@ -8,7 +8,7 @@
 import Foundation
 
 /// Precip Provider
-struct PrecipProviders: Codable {
+public struct PrecipProviders: Codable {
     let name, type, owner: String
     let records: [PrecipRecord]
     

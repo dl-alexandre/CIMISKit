@@ -8,8 +8,8 @@
 import Foundation
 
 
-struct APIService: APIServiceProtocol {
-    func fetchStations(url: URL?, completion: @escaping (Result<StationModel, CIMISError>) -> Void) {
+public struct APIService: APIServiceProtocol {
+ public func fetchStations(url: URL?, completion: @escaping (Result<StationModel, CIMISError>) -> Void) {
         guard let url = url else {
             let error = CIMISError.invalidURL
             completion(Result.failure(error))
@@ -54,7 +54,7 @@ struct APIService: APIServiceProtocol {
         task.resume()
     }
     
-    func fetchZips(url: URL?, completion: @escaping (Result<ZipCodeModel, CIMISError>) -> Void) {
+ public func fetchZips(url: URL?, completion: @escaping (Result<ZipCodeModel, CIMISError>) -> Void) {
         guard let url = url else {
             let error = CIMISError.invalidURL
             completion(Result.failure(error))
@@ -99,7 +99,7 @@ struct APIService: APIServiceProtocol {
         task.resume()
     }
     
-    func fetchWeather(url: URL?, completion: @escaping (Result<WeatherPrecipModel, CIMISError>) -> Void) {
+ public func fetchWeather(url: URL?, completion: @escaping (Result<WeatherPrecipModel, CIMISError>) -> Void) {
         guard let url = url else {
             let error = CIMISError.invalidURL
             completion(Result.failure(error))
@@ -144,7 +144,7 @@ struct APIService: APIServiceProtocol {
         task.resume()
     }
     
-    func fetchHourlyWeather(url: URL?, completion: @escaping (Result<HrlyWeatherModel, CIMISError>) -> Void) {
+ public func fetchHourlyWeather(url: URL?, completion: @escaping (Result<HrlyWeatherModel, CIMISError>) -> Void) {
         guard let url = url else {
             let error = CIMISError.invalidURL
             completion(Result.failure(error))

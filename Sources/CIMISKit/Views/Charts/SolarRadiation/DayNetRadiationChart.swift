@@ -7,7 +7,7 @@
 import SwiftUI
 import Charts
 
-struct DayNetRadiationChart: View {
+public struct DayNetRadiationChart: View {
     let chartValueOne: [HrlyRecord]
 //    let chartValueTwo: [HrlyRecord]
 //    let chartValueThree: [HrlyRecord]
@@ -22,7 +22,7 @@ struct DayNetRadiationChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {
@@ -53,12 +53,12 @@ struct DayNetRadiationChart: View {
 //    DayNetRadiationChart(chartValueOne: HrlyProviders.SepFirst.cimisData.providers[0].records, /*chartValueTwo: HrlyProviders.SepSecond.cimisData.providers[0].records, chartValueThree: HrlyProviders.SepThird.cimisData.providers[0].records,*/ width: 600, chartForegroundStyleScale: [AppState().startDate: Color.blue])
 //}
 
-struct HrlySep1NetRadiationChart: View {
+public struct HrlySep1NetRadiationChart: View {
     let chartValues: [HrlyRecord]
     let domain: [Int]
     let chartForegroundStyleScale: KeyValuePairs<String, Color>
     
-    var body: some View {
+ public var body: some View {
         ZStack {
             Chart(chartValues, id: \.id) {
                 LineMark(

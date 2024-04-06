@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Is: String, Codable {
+public enum Is: String, Codable {
     case isFalse = "False"
     case isTrue = "True"
     
@@ -17,7 +17,7 @@ enum Is: String, Codable {
 }
 
 extension Is: Equatable {
-    static func == (lhs: Self, rhs: Self) -> Bool {
+ public static func == (lhs: Self, rhs: Self) -> Bool {
         switch (lhs, rhs) {
         case (.isTrue,.isTrue), (.isFalse,.isFalse):
             return true
@@ -28,7 +28,7 @@ extension Is: Equatable {
 }
 
 extension Is: ExpressibleByBooleanLiteral {
-    init(booleanLiteral value: BooleanLiteralType) {
+ public init(booleanLiteral value: BooleanLiteralType) {
         self = value ? .isTrue : .isFalse
     }
 }

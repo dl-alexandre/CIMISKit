@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct CIMISRadiationChart: View {
+public struct CIMISRadiationChart: View {
     @State private var rangeMin: Int = 0
     @State private var rangeMax: Int = 500
     var domain: [Int] = [0, 500]
@@ -21,7 +21,7 @@ struct CIMISRadiationChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {

@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct CIMISEvapotranspirationChart: View {
+public struct CIMISEvapotranspirationChart: View {
     @State private var rangeMin: Double = 0
     @State private var rangeMax: Double = 0.05
     var domain: [Double] = [0, 0.15]
@@ -21,7 +21,7 @@ struct CIMISEvapotranspirationChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {

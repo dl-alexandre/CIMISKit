@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct DayWindDirectionChart: View {
+public struct DayWindDirectionChart: View {
     let chartValueOne: [HrlyRecord]
 //    let chartValueTwo: [HrlyRecord]
 //    let chartValueThree: [HrlyRecord]
@@ -23,7 +23,7 @@ struct DayWindDirectionChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {
@@ -54,12 +54,12 @@ struct DayWindDirectionChart: View {
 //}
 
 
-struct HrlySep1WindDirectionChart: View {
+public struct HrlySep1WindDirectionChart: View {
     let chartValues: [HrlyRecord]
     let domain: [Int]
     let chartForegroundStyleScale: KeyValuePairs<String, Color>
     @State private var selectedIndex: Int?
-    var body: some View {
+ public var body: some View {
         ZStack {
             Chart(chartValues, id: \.id) {
                 PointMark(

@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Providers
 /// Standard Provider
-struct Providers: Codable {
+public struct Providers: Codable {
     let name, type, owner: String
     let records: [Record]
     

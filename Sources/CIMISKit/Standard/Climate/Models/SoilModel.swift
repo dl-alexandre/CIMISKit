@@ -8,7 +8,7 @@
 import Foundation
 
 /// Soil Model
-struct WeatherSoilModel: Codable {
+public struct WeatherSoilModel: Codable {
     let cimisData: CimisSoilData
     
     enum CodingKeys: String, CodingKey {

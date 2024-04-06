@@ -9,7 +9,7 @@
 import SwiftUI
 import Charts
 
-struct DayTemperatureChart: View  {
+public struct DayTemperatureChart: View  {
     @State private var rangeMin: Int = 20
     @State private var rangeMax: Int = 80
     var domain: [Int] = [53, 70]
@@ -21,7 +21,7 @@ struct DayTemperatureChart: View  {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {

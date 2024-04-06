@@ -8,7 +8,7 @@
 import Foundation
 
 /// Hourly Model
-struct HrlyWeatherModel: Codable {
+public struct HrlyWeatherModel: Codable {
     let cimisData: HrlyCimisData
     
     enum CodingKeys: String, CodingKey {

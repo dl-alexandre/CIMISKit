@@ -8,7 +8,7 @@
 import Foundation
 
 /// Hourly Provider
-struct HrlyProviders: Codable {
+public struct HrlyProviders: Codable {
     let name, type, owner: String
     let records: [HrlyRecord]
     

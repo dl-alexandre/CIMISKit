@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct GroundCoverView: View {
+public struct GroundCoverView: View {
     let groundCover: GroundCover
     
     @available(iOS 13.0.0, *)
-    var body: some View {
+ public var body: some View {
         switch groundCover {
         case .alfalfa:
             return Text("☘️")

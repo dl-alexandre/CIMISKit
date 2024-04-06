@@ -8,7 +8,7 @@
 import Foundation
 
 /// Precip Data
-struct CimisPrecipData: Codable {
+public struct CimisPrecipData: Codable {
     let providers: [PrecipProviders]
     
     enum CodingKeys: String, CodingKey {

@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct ZipCodeModel: Codable {
+public struct ZipCodeModel: Codable {
     let zipCodes: [ZipCode]
 
     enum CodingKeys: String, CodingKey {

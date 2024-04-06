@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol APIServiceProtocol {
+public protocol APIServiceProtocol {
     func fetchStations(
         url: URL?,
         completion: @escaping(Result<StationModel, CIMISError>) -> Void)

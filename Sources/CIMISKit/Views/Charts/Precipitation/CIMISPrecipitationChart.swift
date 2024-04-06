@@ -13,7 +13,7 @@ import Charts
 ///     width: 500
 /// )
 
-struct CIMISPrecipitationChart: View {
+public struct CIMISPrecipitationChart: View {
     @State private var rangeMin: Double = 0
     @State private var rangeMax: Double = 3.5
     
@@ -45,7 +45,7 @@ struct CIMISPrecipitationChart: View {
 //    }
   //  @Binding var rawSelectedDate: Date?
     @State var selectedDate: Date?
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
 //            ScrollView(.horizontal) {
                 VStack {

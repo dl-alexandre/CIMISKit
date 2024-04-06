@@ -8,7 +8,7 @@
 import Foundation
 
 /// Standard Data
-struct CimisData: Codable {
+public struct CimisData: Codable {
     let providers: [Providers]
     
     enum CodingKeys: String, CodingKey {

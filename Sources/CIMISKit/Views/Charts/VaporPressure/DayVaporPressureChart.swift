@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct DayVaporPressureChart: View {
+public struct DayVaporPressureChart: View {
     let chartValueOne: [HrlyRecord]
     let width: CGFloat
     var appState = AppState()
@@ -21,7 +21,7 @@ struct DayVaporPressureChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {
@@ -49,12 +49,12 @@ struct DayVaporPressureChart: View {
 //    DayVaporPressureChart(chartValueOne: HrlyProviders.SepFirst.cimisData.providers[0].records, /*chartValueTwo: HrlyProviders.SepSecond.cimisData.providers[0].records, chartValueThree: HrlyProviders.SepThird.cimisData.providers[0].records,*/ width: 600, chartForegroundStyleScale: [AppState().startDate: Color.red])
 //}
 
-struct HrlySep1VaporPressureChart: View {
+public struct HrlySep1VaporPressureChart: View {
     let chartValues: [HrlyRecord]
     let domain: [Int]
     let chartForegroundStyleScale: KeyValuePairs<String, Color>
     
-    var body: some View {
+ public var body: some View {
         ZStack {
             Chart(chartValues, id: \.id) {
                 LineMark(

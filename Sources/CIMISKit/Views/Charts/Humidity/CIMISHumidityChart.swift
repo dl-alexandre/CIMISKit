@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct CIMISHumidityChart: View {
+public struct CIMISHumidityChart: View {
     @State private var rangeMin: Double = 50
     @State private var rangeMax: Double = 100
     var domain: [Double] = [30, 100]
@@ -22,7 +22,7 @@ struct CIMISHumidityChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
         ScrollView(.horizontal) {
             VStack {

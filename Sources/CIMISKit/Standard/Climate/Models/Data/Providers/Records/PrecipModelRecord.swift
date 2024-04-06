@@ -8,8 +8,8 @@
 import Foundation
 
 /// Precip Record
-struct PrecipRecord: Codable, Identifiable {
-    let id = UUID()
+public struct PrecipRecord: Codable, Identifiable {
+ public let id = UUID()
     let date: Date
     let julian: String
     let station: String

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GroundCover: String, Codable {
+public enum GroundCover: String, Codable {
     case alfalfa = "Alfalfa"
     case bare = "Bare"
     case grass = "Grass"

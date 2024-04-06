@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Measurement: Codable {
+public struct Measurement: Codable {
     let value: String?
     let qc: String
     let unit: Unit

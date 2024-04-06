@@ -8,7 +8,7 @@
 import Foundation
 
 /// Soil Provider
-struct SoilProviders: Codable {
+public struct SoilProviders: Codable {
     let name, type, owner: String
     let records: [SoilRecord]
     

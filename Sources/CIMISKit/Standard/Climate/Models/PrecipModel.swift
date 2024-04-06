@@ -8,7 +8,7 @@
 import Foundation
 
 /// Precip Model
-struct WeatherPrecipModel: Codable {
+public struct WeatherPrecipModel: Codable {
     let cimisData: CimisPrecipData
     
     enum CodingKeys: String, CodingKey {

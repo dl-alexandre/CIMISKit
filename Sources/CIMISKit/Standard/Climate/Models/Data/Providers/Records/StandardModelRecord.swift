@@ -8,8 +8,8 @@
 import Foundation
 
 /// Standard Record
-struct Record: Codable, Identifiable {
-    let id = UUID()
+public struct Record: Codable, Identifiable {
+ public let id = UUID()
     let date: Date
     let julian: String
     let station: String

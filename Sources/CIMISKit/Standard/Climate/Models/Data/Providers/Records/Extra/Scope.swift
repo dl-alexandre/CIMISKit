@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Scope: String, Codable {
+public enum Scope: String, Codable {
     case daily = "daily"
     case hourly = "hourly"
 }

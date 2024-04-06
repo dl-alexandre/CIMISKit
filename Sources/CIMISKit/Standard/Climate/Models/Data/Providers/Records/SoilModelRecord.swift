@@ -8,8 +8,8 @@
 import Foundation
 
 /// Soil Record
-struct SoilRecord: Codable, Identifiable {
-    let id = UUID()
+public struct SoilRecord: Codable, Identifiable {
+ public let id = UUID()
     let date: Date
     let julian: String
     let station: String

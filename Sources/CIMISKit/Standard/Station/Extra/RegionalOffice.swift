@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum RegionalOffice: String, Codable {
+public enum RegionalOffice: String, Codable {
     case northCentralRegionOffice = "North Central Region Office"
     case northernRegionOffice = "Northern Region Office"
     case southCentralRegionOffice = "South Central Region Office"

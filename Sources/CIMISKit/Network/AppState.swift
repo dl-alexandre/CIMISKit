@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AppState {
+public class AppState {
     let appKey = "bb4f71ac-f2a0-4da9-b3aa-dd7cc2417b83"
     let targets = "263"
     let startDate = "2023-11-01"

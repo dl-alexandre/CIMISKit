@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Station: Codable, Identifiable, Hashable {
-    var id = UUID()
+public struct Station: Codable, Identifiable, Hashable {
+ public var id = UUID()
     let stationNbr, name, city: String
     let regionalOffice: RegionalOffice
     let county, connectDate, disconnectDate: String

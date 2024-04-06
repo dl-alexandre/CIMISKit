@@ -9,7 +9,7 @@ import Foundation
 
 
 
-enum CIMISError: Error, CustomStringConvertible {
+public enum CIMISError: Error, CustomStringConvertible {
     case invalidURL
     case invalidResponse(statusCode: Int)
     case url(URLError)
@@ -28,7 +28,7 @@ enum CIMISError: Error, CustomStringConvertible {
         }
     }
     
-    var description: String {
+ public var description: String {
         switch self {
         case .unknown: return "unknown error"
         case .invalidURL: return "invalid URL"

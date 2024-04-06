@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct CIMISWindRunChart: View {
+public struct CIMISWindRunChart: View {
     @State private var rangeMin: Double = -200
     @State private var rangeMax: Double = 200
     var domain: [Double] = [-200, 200]
@@ -21,7 +21,7 @@ struct CIMISWindRunChart: View {
         isExpanded.toggle()
     }
     
-    var body: some View {
+ public var body: some View {
         GeometryReader { geo in
             ScrollView(.horizontal) {
                 VStack {

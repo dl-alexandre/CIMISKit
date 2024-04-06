@@ -8,7 +8,7 @@
 import Foundation
 
 /// Hourly Data
-struct HrlyCimisData: Codable {
+public struct HrlyCimisData: Codable {
     let providers: [HrlyProviders]
     
     enum CodingKeys: String, CodingKey {

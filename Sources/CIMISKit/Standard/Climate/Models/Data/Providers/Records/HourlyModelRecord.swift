@@ -8,8 +8,8 @@
 import Foundation
 
 /// Hourly Record
-struct HrlyRecord: Codable, Identifiable {
-    var id = UUID()
+public struct HrlyRecord: Codable, Identifiable {
+ public var id = UUID()
     var date: Date
     var julian: String
     var hour: String

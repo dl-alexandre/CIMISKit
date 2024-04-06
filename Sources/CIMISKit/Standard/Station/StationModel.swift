@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StationModel: Codable {
+public struct StationModel: Codable {
     let stations: [Station]
     
     enum CodingKeys: String, CodingKey {

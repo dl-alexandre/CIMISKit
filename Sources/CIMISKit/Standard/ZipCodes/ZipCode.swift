@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct ZipCode: Codable {
+public struct ZipCode: Codable {
     let stationNbr: Int
     let zipCode, connectDate, disconnectDate: String
     let isActive: Is

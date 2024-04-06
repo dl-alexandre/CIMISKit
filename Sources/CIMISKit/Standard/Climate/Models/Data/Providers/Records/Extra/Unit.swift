@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Unit: String, Codable {
+public enum Unit: String, Codable {
     // Temperature
     case Fahrenheit = "(F)"
     case celsius =  "(C)"
