@@ -11,13 +11,13 @@ import Foundation
 @MainActor
 public class WeatherFetcher: ObservableObject {
     
-    @Published var dailyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
-    @Published var weeklyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
-    @Published var monthlyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
-    @Published var annualData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
-    @Published var hourlyData = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
-    @Published var hourlyDataTwo = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
-    @Published var hourlyDataThree = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
+    @Published public var dailyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
+    @Published public var weeklyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
+    @Published public var monthlyData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
+    @Published public var annualData = WeatherPrecipModel(cimisData: CimisPrecipData(providers: [PrecipProviders]()))
+    @Published public var hourlyData = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
+    @Published public var hourlyDataTwo = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
+    @Published public var hourlyDataThree = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
     @Published public var isLoading: Bool = false
     @Published public var errorMessage: String? = nil
     
