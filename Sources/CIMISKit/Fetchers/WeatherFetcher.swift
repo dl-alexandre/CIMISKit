@@ -85,7 +85,7 @@ public class WeatherFetcher: ObservableObject {
     let dayBeforeYesterday = Date.init(timeIntervalSinceNow: -60*60*24*2)
     let threeDaysAgo = Date.init(timeIntervalSinceNow: -60*60*24*3)
 
-    func fetchAnnualData(station: Int) {
+ public func fetchAnnualData(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -107,7 +107,7 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
-    func fetchMonthlyData(station: Int) {
+ public func fetchMonthlyData(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -129,7 +129,7 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
-    func fetchWeeklyData(station: Int) {
+ public func fetchWeeklyData(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -151,7 +151,7 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
-    func fetchHourlyData(station: Int) {
+ public func fetchHourlyData(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -173,7 +173,7 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
-    func fetchHourlyDataTwo(station: Int) {
+ public func fetchHourlyDataTwo(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -195,7 +195,7 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
-    func fetchHourlyDataThree(station: Int) {
+ public func fetchHourlyDataThree(station: Int) {
         isLoading = true
         errorMessage = nil
         
@@ -218,7 +218,7 @@ public class WeatherFetcher: ObservableObject {
     }
     
     
-    func fetchStandardHourData(station: Int, startDate: String, endDate: String) {
+ public func fetchStandardHourData(station: Int, startDate: String, endDate: String) {
         isLoading = true
         errorMessage = nil
         
