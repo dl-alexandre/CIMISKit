@@ -9,7 +9,9 @@ import Foundation
 
 @Observable
 public class AnnualPrecipFetcher {
-    public var isLoading: Bool = false
+ public let yesterday = Date.init(timeIntervalSinceNow: -60*60*24*1)
+ public let pastYear = Date.init(timeIntervalSinceNow: -60*60*24*365)
+ public var isLoading: Bool = false
  public var errorMessage: String? = nil
     
     let appState = AppState()

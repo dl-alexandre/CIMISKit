@@ -9,6 +9,8 @@ import Foundation
 
 @Observable
 public class WeeklyPrecipFetcher {
+ public let pastSevenDays = Date.init(timeIntervalSinceNow: -60*60*24*7)
+ public let yesterday = Date.init(timeIntervalSinceNow: -60*60*24*1)
  public var isLoading: Bool = false
  public var errorMessage: String? = nil
     
