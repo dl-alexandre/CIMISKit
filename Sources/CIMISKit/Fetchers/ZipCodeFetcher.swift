@@ -9,7 +9,7 @@ import Foundation
 
 @Observable
 public class ZipCodeFetcher: ObservableObject {
- public  var isLoading: Bool = false
+ public var isLoading: Bool = false
  public var errorMessage: String? = nil
     
     let appState = AppState()

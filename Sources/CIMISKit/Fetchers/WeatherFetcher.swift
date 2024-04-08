@@ -18,8 +18,8 @@ public class WeatherFetcher: ObservableObject {
     @Published var hourlyData = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
     @Published var hourlyDataTwo = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
     @Published var hourlyDataThree = HrlyWeatherModel(cimisData: HrlyCimisData(providers: [HrlyProviders]()))
-    @Published var isLoading: Bool = false
-    @Published var errorMessage: String? = nil
+    @Published public var isLoading: Bool = false
+    @Published public var errorMessage: String? = nil
     
     
     
