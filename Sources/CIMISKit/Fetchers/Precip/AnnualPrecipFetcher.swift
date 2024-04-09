@@ -6,6 +6,43 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension View {
+ 
+ func formatDateString(string: Date) -> String {
+  let formatter = DateFormatter()
+  formatter.dateFormat = "YYYY-MM-dd"
+  formatter.locale = Locale(identifier: "en_US")
+  let date = formatter.string(from: string)
+  return date
+ }
+ 
+ 
+ public func fetchAnnualData(station: Int, apf: AnnualPrecipFetcher, apst: AppState) /*-> WeatherPrecipModel*/ {
+  apf.isLoading = true
+  apf.errorMessage = nil
+  
+  let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(apst.appKey)&targets=\(station)&startDate=\(formatDateString(string: apf.pastYear))&endDate=\(formatDateString(string: apf.yesterday))&dataItems=\(apst.precip)")
+  
+  apf.service.fetchWeather(url: endpoint) { [unowned apf] result in
+   
+   DispatchQueue.main.async {
+    apf.isLoading = false
+    switch result {
+     case .failure(let error): apf.errorMessage = error.localizedDescription
+      print("error: ", error)
+      print(String(describing: endpoint))
+     case .success(let annualData):
+//      return annualData
+//      self.annualData = annualData
+      print("--- success with \(annualData.cimisData.providers[0].records.count)")
+//      self.annualInfo = annualData.cimisData.providers.first!.records
+    }
+   }
+  }
+ }
+}
 
 @Observable
 public class AnnualPrecipFetcher {
