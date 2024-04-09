@@ -13,7 +13,7 @@ public struct DayTemperatureChart: View  {
     @State private var rangeMin: Int = 20
     @State private var rangeMax: Int = 80
     var domain: [Int] = [53, 70]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValueOne: [HrlyRecord]
     @State private var isExpanded = false
     

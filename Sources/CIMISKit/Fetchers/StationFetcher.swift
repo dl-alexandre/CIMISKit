@@ -13,7 +13,7 @@ public class StationFetcher: ObservableObject {
  public var isLoading: Bool = false
  public var errorMessage: String? = nil
     
-    let appState = AppState()
+//    let appState = AppState()
  public let service: APIServiceProtocol
     
     public init(service: APIServiceProtocol? = nil) {

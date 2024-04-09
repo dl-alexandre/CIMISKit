@@ -13,7 +13,7 @@ public struct DayWindDirectionChart: View {
 //    let chartValueTwo: [HrlyRecord]
 //    let chartValueThree: [HrlyRecord]
     let width: CGFloat
-    var appState = AppState()
+//    var appState = AppState()
     var domain: [Int] = [0, 360]
     var chartForegroundStyleScale: KeyValuePairs<String, Color>
 //    var chartForgroundStyleScale: KeyValuePairs = ["DayOne": Color.green, "DayTwo": Color.blue, "DayThree": Color.red]

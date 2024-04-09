@@ -12,7 +12,7 @@ public struct CIMISRadiationChart: View {
     @State private var rangeMin: Int = 0
     @State private var rangeMax: Int = 500
     var domain: [Int] = [0, 500]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [Record]
     let width: CGFloat
     @State private var isExpanded = false

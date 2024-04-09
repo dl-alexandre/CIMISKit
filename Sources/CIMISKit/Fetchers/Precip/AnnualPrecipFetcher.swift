@@ -19,11 +19,11 @@ extension View {
  }
  
  
- public func fetchAnnualData(station: Int, apf: AnnualPrecipFetcher, apst: AppState) /*-> WeatherPrecipModel*/ {
+ public func fetchAnnualData(station: Int, apf: AnnualPrecipFetcher, appKey: String) /*-> WeatherPrecipModel*/ {
   apf.isLoading = true
   apf.errorMessage = nil
   
-  let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(apst.appKey)&targets=\(station)&startDate=\(formatDateString(string: apf.pastYear))&endDate=\(formatDateString(string: apf.yesterday))&dataItems=\(apst.precip)")
+  let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: apf.pastYear))&endDate=\(formatDateString(string: apf.yesterday))&dataItems=day-precip")
   
   apf.service.fetchWeather(url: endpoint) { [unowned apf] result in
    
@@ -51,7 +51,7 @@ public class AnnualPrecipFetcher {
  public var isLoading: Bool = false
  public var errorMessage: String? = nil
     
-    let appState = AppState()
+//    let appState = AppState()
  public let service: APIServiceProtocol
     
  public init(service: APIServiceProtocol? = nil) {

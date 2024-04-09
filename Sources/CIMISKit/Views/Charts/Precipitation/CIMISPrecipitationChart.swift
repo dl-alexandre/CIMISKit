@@ -18,7 +18,7 @@ public struct CIMISPrecipitationChart: View {
     @State private var rangeMax: Double = 3.5
     
 //    var domain: [Double] = [0, 1.5]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [PrecipRecord]
     let width: CGFloat
     @State private var isExpanded = false

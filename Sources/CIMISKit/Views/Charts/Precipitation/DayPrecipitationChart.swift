@@ -19,7 +19,7 @@ import Charts
 public struct DayPrecipitationChart: View {
     let chartValueOne: [HrlyRecord]
     let width: CGFloat
-    var appState = AppState()
+//    var appState = AppState()
     var domain: [Int] = [0, 4]
     var chartForegroundStyleScale: KeyValuePairs<String, Color>
     

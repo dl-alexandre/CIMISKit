@@ -12,7 +12,7 @@ public struct CIMISWindRunChart: View {
     @State private var rangeMin: Double = -200
     @State private var rangeMax: Double = 200
     var domain: [Double] = [-200, 200]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [Record]
     let width: CGFloat
     @State private var isExpanded = false

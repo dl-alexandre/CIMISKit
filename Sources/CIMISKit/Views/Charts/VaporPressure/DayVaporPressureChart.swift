@@ -11,7 +11,7 @@ import Charts
 public struct DayVaporPressureChart: View {
     let chartValueOne: [HrlyRecord]
     let width: CGFloat
-    var appState = AppState()
+//    var appState = AppState()
     var domain: [Int] = [10, 20]
     var chartForegroundStyleScale: KeyValuePairs<String, Color>
 //    var chartForgroundStyleScale: KeyValuePairs = ["DayOne": Color.green, "DayTwo": Color.blue, "DayThree": Color.red]

@@ -12,7 +12,7 @@ public struct CIMISTempChart: View {
     @State private var rangeMin: Int = 20
     @State private var rangeMax: Int = 80
     var domain: [Int] = [20, 80]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [SoilRecord]
     let width: CGFloat
     @State private var isExpanded = false

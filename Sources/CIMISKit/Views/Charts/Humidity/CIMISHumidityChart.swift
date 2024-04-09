@@ -12,7 +12,7 @@ public struct CIMISHumidityChart: View {
     @State private var rangeMin: Double = 50
     @State private var rangeMax: Double = 100
     var domain: [Double] = [30, 100]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [Record]
     let width: CGFloat
     var chartForgroundStyleScale: KeyValuePairs = ["Max": Color.blue, "Avg": Color.yellow, "Min": Color.red]

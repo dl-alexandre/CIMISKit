@@ -12,7 +12,7 @@ public struct CIMISEvapotranspirationChart: View {
     @State private var rangeMin: Double = 0
     @State private var rangeMax: Double = 0.05
     var domain: [Double] = [0, 0.15]
-    var appState = AppState()
+//    var appState = AppState()
     let chartValues: [Record]
     let width: CGFloat
     @State private var isExpanded = false

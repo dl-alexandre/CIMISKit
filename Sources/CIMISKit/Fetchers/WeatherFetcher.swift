@@ -23,7 +23,7 @@ public class WeatherFetcher: ObservableObject {
     
     
     
-    let appState = AppState()
+//    let appState = AppState()
  public  let service: APIServiceProtocol
 //    let precipTotal: Double
     
@@ -53,11 +53,11 @@ public class WeatherFetcher: ObservableObject {
         return date
     }
     
-    func fetchStandardData(station: Int, startDate: String, endDate: String) {
+ func fetchStandardData(station: Int, startDate: String, endDate: String, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(startDate)&endDate=\(endDate)&dataItems=\(appState.precip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(startDate)&endDate=\(endDate)&dataItems=day-precip")
         
         service.fetchWeather(url: endpoint) { [unowned self] result in
             
@@ -85,11 +85,11 @@ public class WeatherFetcher: ObservableObject {
     let dayBeforeYesterday = Date.init(timeIntervalSinceNow: -60*60*24*2)
     let threeDaysAgo = Date.init(timeIntervalSinceNow: -60*60*24*3)
 
- public func fetchAnnualData(station: Int) {
+ public func fetchAnnualData(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: pastYear))&endDate=\(formatDateString(string: yesterday))&dataItems=\(appState.precip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: pastYear))&endDate=\(formatDateString(string: yesterday))&dataItems=day-precip")
         
         service.fetchWeather(url: endpoint) { [unowned self] result in
             
@@ -107,11 +107,11 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
- public func fetchMonthlyData(station: Int) {
+ public func fetchMonthlyData(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: past30Days))&endDate=\(formatDateString(string: yesterday))&dataItems=\(appState.precip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: past30Days))&endDate=\(formatDateString(string: yesterday))&dataItems=day-precip")
         
         service.fetchWeather(url: endpoint) { [unowned self] result in
             
@@ -129,11 +129,11 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
- public func fetchWeeklyData(station: Int) {
+ public func fetchWeeklyData(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: pastSevenDays))&endDate=\(formatDateString(string: yesterday))&dataItems=\(appState.precip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: pastSevenDays))&endDate=\(formatDateString(string: yesterday))&dataItems=day-precip")
         
         service.fetchWeather(url: endpoint) { [unowned self] result in
             
@@ -151,11 +151,11 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
- public func fetchHourlyData(station: Int) {
+ public func fetchHourlyData(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: threeDaysAgo))&endDate=\(formatDateString(string: dayBeforeYesterday))&dataItems=\(appState.hrlyPrecip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: threeDaysAgo))&endDate=\(formatDateString(string: dayBeforeYesterday))&dataItems=hly-precip")
         
         service.fetchHourlyWeather(url: endpoint) { [unowned self] result in
             DispatchQueue.main.async {
@@ -173,11 +173,11 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
- public func fetchHourlyDataTwo(station: Int) {
+ public func fetchHourlyDataTwo(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: dayBeforeYesterday))&endDate=\(formatDateString(string: yesterday))&dataItems=\(appState.hrlyPrecip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: dayBeforeYesterday))&endDate=\(formatDateString(string: yesterday))&dataItems=hly-precip")
         
         service.fetchHourlyWeather(url: endpoint) { [unowned self] result in
             DispatchQueue.main.async {
@@ -195,11 +195,11 @@ public class WeatherFetcher: ObservableObject {
         }
     }
     
- public func fetchHourlyDataThree(station: Int) {
+ public func fetchHourlyDataThree(station: Int, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(formatDateString(string: yesterday))&endDate=\(formatDateString(string: today))&dataItems=\(appState.hrlyPrecip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(formatDateString(string: yesterday))&endDate=\(formatDateString(string: today))&dataItems=hly-precip")
         
         service.fetchHourlyWeather(url: endpoint) { [unowned self] result in
             DispatchQueue.main.async {
@@ -218,11 +218,11 @@ public class WeatherFetcher: ObservableObject {
     }
     
     
- public func fetchStandardHourData(station: Int, startDate: String, endDate: String) {
+ public func fetchStandardHourData(station: Int, startDate: String, endDate: String, appKey: String) {
         isLoading = true
         errorMessage = nil
         
-        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appState.appKey)&targets=\(station)&startDate=\(startDate)&endDate=\(endDate)&dataItems=\(appState.hrlyPrecip)")
+        let endpoint = URL(string: "https://et.water.ca.gov/api/data?appKey=\(appKey)&targets=\(station)&startDate=\(startDate)&endDate=\(endDate)&dataItems=hly-precip")
         
         service.fetchHourlyWeather(url: endpoint) { [unowned self] result in
             DispatchQueue.main.async {
