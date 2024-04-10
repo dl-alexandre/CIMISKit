@@ -24,7 +24,7 @@ public class WeatherFetcher: ObservableObject {
     
     
 //    let appState = AppState()
- public  let service: APIServiceProtocol
+ public let service: APIServiceProtocol
 //    let precipTotal: Double
     
  public init(service: APIServiceProtocol? = nil) {
@@ -53,7 +53,7 @@ public class WeatherFetcher: ObservableObject {
         return date
     }
     
- func fetchStandardData(station: Int, startDate: String, endDate: String, appKey: String) {
+ public func fetchStandardData(station: Int, startDate: String, endDate: String, appKey: String) {
         isLoading = true
         errorMessage = nil
         
