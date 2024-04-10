@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-open class Station: Codable, Identifiable, Hashable {
+public struct Station: Codable, Identifiable, Hashable {
  public static func == (lhs: Station, rhs: Station) -> Bool {
    // Compare relevant properties for equality
   return lhs.stationNbr == rhs.stationNbr

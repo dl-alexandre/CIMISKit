@@ -34,7 +34,7 @@ extension Is: ExpressibleByBooleanLiteral {
 }
 
 extension Is {
-    var boolValue: Bool {
+    public var boolValue: Bool {
         switch self {
         case .isTrue:
             return true
