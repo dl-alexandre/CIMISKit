@@ -48,9 +48,9 @@ import Foundation
 @MainActor
 public class StationFetcher: ObservableObject {
   //@State let stationArray = []
- @Published var stations = StationModel(/*id: UUID(), */stations: [Station]())//(id: UUID(), stations: <#T##[Station]#>)
- @Published var isLoading: Bool = false
- @Published var errorMessage: String? = nil
+ @Published public var stations = StationModel(/*id: UUID(), */stations: [Station]())//(id: UUID(), stations: <#T##[Station]#>)
+ @Published public var isLoading: Bool = false
+ @Published public var errorMessage: String? = nil
  
  public let service: APIServiceProtocol
  
