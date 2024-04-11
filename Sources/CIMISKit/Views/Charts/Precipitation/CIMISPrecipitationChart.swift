@@ -21,9 +21,7 @@ public struct CIMISPrecipitationChart: View {
  let width: CGFloat
  @State private var isExpanded = false
  
- public init(rangeMin: Double, rangeMax: Double, chartValues: [PrecipRecord], width: CGFloat, isExpanded: Bool = false, selectedDate: Date? = nil) {
-  self.rangeMin = rangeMin
-  self.rangeMax = rangeMax
+ public init(chartValues: [PrecipRecord], width: CGFloat, isExpanded: Bool = false, selectedDate: Date? = nil) {
   self.chartValues = chartValues
   self.width = width
   self.isExpanded = isExpanded
