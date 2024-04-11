@@ -8,9 +8,9 @@
 import Foundation
 
 public struct Measurement: Codable {
-    let value: String?
-    let qc: String
-    let unit: Unit
+ public let value: String?
+ public let qc: String
+ public let unit: Unit
     
     enum CodingKeys: String, CodingKey {
         case value = "Value"

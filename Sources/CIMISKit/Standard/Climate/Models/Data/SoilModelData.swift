@@ -9,7 +9,7 @@ import Foundation
 
 /// Soil Data
 public struct CimisSoilData: Codable {
-    let providers: [SoilProviders]
+ public let providers: [SoilProviders]
     
     enum CodingKeys: String, CodingKey {
         case providers = "Providers"

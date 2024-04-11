@@ -9,7 +9,7 @@ import Foundation
 
 /// Standard Data
 public struct CimisData: Codable {
-    let providers: [Providers]
+ public let providers: [Providers]
     
     enum CodingKeys: String, CodingKey {
         case providers = "Providers"

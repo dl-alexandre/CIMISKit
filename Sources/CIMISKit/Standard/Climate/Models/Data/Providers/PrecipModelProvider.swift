@@ -9,8 +9,8 @@ import Foundation
 
 /// Precip Provider
 public struct PrecipProviders: Codable {
-    let name, type, owner: String
-    let records: [PrecipRecord]
+ public let name, type, owner: String
+ public let records: [PrecipRecord]
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

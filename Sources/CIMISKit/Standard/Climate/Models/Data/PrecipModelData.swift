@@ -9,7 +9,7 @@ import Foundation
 
 /// Precip Data
 public struct CimisPrecipData: Codable {
-    let providers: [PrecipProviders]
+ public let providers: [PrecipProviders]
     
     enum CodingKeys: String, CodingKey {
         case providers = "Providers"

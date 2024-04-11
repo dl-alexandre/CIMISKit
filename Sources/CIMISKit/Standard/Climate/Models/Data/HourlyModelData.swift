@@ -9,7 +9,7 @@ import Foundation
 
 /// Hourly Data
 public struct HrlyCimisData: Codable {
-    let providers: [HrlyProviders]
+ public let providers: [HrlyProviders]
     
     enum CodingKeys: String, CodingKey {
         case providers = "Providers"

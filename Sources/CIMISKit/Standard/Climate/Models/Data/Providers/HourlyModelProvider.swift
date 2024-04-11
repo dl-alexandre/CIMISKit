@@ -9,8 +9,8 @@ import Foundation
 
 /// Hourly Provider
 public struct HrlyProviders: Codable {
-    let name, type, owner: String
-    let records: [HrlyRecord]
+ public let name, type, owner: String
+ public let records: [HrlyRecord]
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

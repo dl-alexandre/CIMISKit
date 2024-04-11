@@ -9,8 +9,8 @@ import Foundation
 
 /// Soil Provider
 public struct SoilProviders: Codable {
-    let name, type, owner: String
-    let records: [SoilRecord]
+ public let name, type, owner: String
+ public let records: [SoilRecord]
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

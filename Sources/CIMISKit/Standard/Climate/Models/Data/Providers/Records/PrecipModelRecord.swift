@@ -10,12 +10,12 @@ import Foundation
 /// Precip Record
 public struct PrecipRecord: Codable, Identifiable {
  public let id = UUID()
-    let date: Date
-    let julian: String
-    let station: String
-    let standard: String
-    let zipCodes: String
-    let scope: Scope
+ public let date: Date
+ public let julian: String
+ public let station: String
+ public let standard: String
+ public let zipCodes: String
+ public let scope: Scope
 //    let dailyAirTmpAvg: sureVQU
 //    let dailyAirTmpMax: sureVQU
 //    let dailyAirTmpMin: sureVQU
@@ -23,7 +23,7 @@ public struct PrecipRecord: Codable, Identifiable {
 //    let dailyEto: VQU
 //    let dailyAsceEto: sureVQU
 //    let dailyAsceEtr: VQU
-    let dailyPrecip: Measurement
+ public let dailyPrecip: Measurement
 //    let dailyRelHumAvg: sureVQU
 //    let dailyRelHumMax: sureVQU
 //    let dailyRelHumMin: sureVQU

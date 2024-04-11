@@ -10,8 +10,8 @@ import Foundation
 // MARK: - Providers
 /// Standard Provider
 public struct Providers: Codable {
-    let name, type, owner: String
-    let records: [Record]
+ public let name, type, owner: String
+ public let records: [Record]
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

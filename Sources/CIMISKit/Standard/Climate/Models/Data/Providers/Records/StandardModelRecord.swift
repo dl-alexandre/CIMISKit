@@ -10,36 +10,36 @@ import Foundation
 /// Standard Record
 public struct Record: Codable, Identifiable {
  public let id = UUID()
-    let date: Date
-    let julian: String
-    let station: String
-    let standard: String
-    let zipCodes: String
-    let scope: Scope
-    let dailyAirTmpAvg: Measurement
-    let dailyAirTmpMax: Measurement
-    let dailyAirTmpMin: Measurement
-    let dailyDewPoint: Measurement
-//    let dailyEto: VQU
-    let dailyAsceEto: Measurement
-//    let dailyAsceEtr: VQU
-    let dailyPrecip: Measurement
-    let dailyRelHumAvg: Measurement
-    let dailyRelHumMax: Measurement
-    let dailyRelHumMin: Measurement
-    let dailySoilTmpAvg: Measurement
+ public let date: Date
+ public let julian: String
+ public let station: String
+ public let standard: String
+ public let zipCodes: String
+ public let scope: Scope
+ public let dailyAirTmpAvg: Measurement
+ public let dailyAirTmpMax: Measurement
+ public let dailyAirTmpMin: Measurement
+ public let dailyDewPoint: Measurement
+//  public   let dailyEto: VQU
+ public let dailyAsceEto: Measurement
+//  public   let dailyAsceEtr: VQU
+ public let dailyPrecip: Measurement
+ public let dailyRelHumAvg: Measurement
+ public let dailyRelHumMax: Measurement
+ public let dailyRelHumMin: Measurement
+ public let dailySoilTmpAvg: Measurement
 //    let dailySoilTmpMax: VQU
 //    let dailySoilTmpMin: VQU
-    let dailySolarRadiationAvg: Measurement
+ public let dailySolarRadiationAvg: Measurement
 //    let dailySolarRadiationNet: VQU
-    let dailyVaporPressureAvg: Measurement
+ public let dailyVaporPressureAvg: Measurement
 //    let dailyVaporPressureMax: VQU
 //    let dailyWindEastNorthEast: VQU
 //    let dailyWindEastSouthEast: VQU
 //    let dailyWindNorthNorthEast: VQU
 //    let dailyWindNorthNorthWest: VQU
-    let dailyWindRun: Measurement
-    let dailyWindSpeedAvg: Measurement
+ public let dailyWindRun: Measurement
+ public let dailyWindSpeedAvg: Measurement
 //    let dailyWindSouthSouthWest: VQU
 //    let dailyWindWestNorthWest: VQU
 //    let dailyWindWestSouthWest: VQU

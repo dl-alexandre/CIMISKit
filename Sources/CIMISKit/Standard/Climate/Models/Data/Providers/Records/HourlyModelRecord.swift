@@ -10,27 +10,27 @@ import Foundation
 /// Hourly Record
 public struct HrlyRecord: Codable, Identifiable {
  public var id = UUID()
-    var date: Date
-    var julian: String
-    var hour: String
-    var station: String
-    var standard: String
-    var zipCodes: String
-    var scope: Scope
-    var hourlyAirTemp: Measurement?
-    var hourlyDewPoint: Measurement?
-    var hourlyETo: Measurement?
-    var hourlyNetRadiation: Measurement?
-    var hourlyASCEETo: Measurement?
-    var hourlyASCEETr: Measurement?
-    var hourlyPrecipitation: Measurement?
-    var hourlyRelativeHumidity: Measurement?
-    var hourlyResultantWind: Measurement?
-    var hourlySoilTemp: Measurement?
-    var hourlySolarRadiation: Measurement?
-    var hourlyVaporPressure: Measurement?
-    var hourlyWindDirection: Measurement?
-    var hourlyWindSpeed: Measurement?
+ public var date: Date
+ public var julian: String
+ public var hour: String
+ public var station: String
+ public var standard: String
+ public var zipCodes: String
+ public var scope: Scope
+ public var hourlyAirTemp: Measurement?
+ public var hourlyDewPoint: Measurement?
+ public var hourlyETo: Measurement?
+ public var hourlyNetRadiation: Measurement?
+ public var hourlyASCEETo: Measurement?
+ public var hourlyASCEETr: Measurement?
+ public var hourlyPrecipitation: Measurement?
+ public var hourlyRelativeHumidity: Measurement?
+ public var hourlyResultantWind: Measurement?
+ public var hourlySoilTemp: Measurement?
+ public var hourlySolarRadiation: Measurement?
+ public var hourlyVaporPressure: Measurement?
+ public var hourlyWindDirection: Measurement?
+ public var hourlyWindSpeed: Measurement?
     
     enum CodingKeys: String, CodingKey {
         case date = "Date"

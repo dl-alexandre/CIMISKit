@@ -10,12 +10,12 @@ import Foundation
 /// Soil Record
 public struct SoilRecord: Codable, Identifiable {
  public let id = UUID()
-    let date: Date
-    let julian: String
-    let station: String
-    let standard: String
-    let zipCodes: String
-    let scope: Scope
+ public let date: Date
+ public let julian: String
+ public let station: String
+ public let standard: String
+ public let zipCodes: String
+ public let scope: Scope
 //    let dailyAirTmpAvg: sureVQU
 //    let dailyAirTmpMax: sureVQU
 //    let dailyAirTmpMin: sureVQU
@@ -27,9 +27,9 @@ public struct SoilRecord: Codable, Identifiable {
 //    let dailyRelHumAvg: sureVQU
 //    let dailyRelHumMax: sureVQU
 //    let dailyRelHumMin: sureVQU
-    let dailySoilTmpAvg: Measurement
-    let dailySoilTmpMax: Measurement
-    let dailySoilTmpMin: Measurement
+ public let dailySoilTmpAvg: Measurement
+ public let dailySoilTmpMax: Measurement
+ public let dailySoilTmpMin: Measurement
 //    let dailySolarRadiationAvg: sureVQU
 //    let dailySolarRadiationNet: VQU
 //    let dailyVaporPressureAvg: sureVQU

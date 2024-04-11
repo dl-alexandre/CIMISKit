@@ -9,7 +9,7 @@ import Foundation
 
 /// Standard Model
 public struct WeatherModel: Codable {
-    let cimisData: CimisData
+ public let cimisData: CimisData
     
     enum CodingKeys: String, CodingKey {
         case cimisData = "Data"
