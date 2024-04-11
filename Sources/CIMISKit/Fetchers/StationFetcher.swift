@@ -105,26 +105,27 @@ public class StationFetcher: ObservableObject {
   })
   return stations
  }
- 
- public func fetchAllStations() {
-  isLoading = true
-  errorMessage = nil
   
-  let endpoint = URL(string: "https://et.water.ca.gov/api/station")
-  service.fetchStations(url: endpoint) { [unowned self] result in
-   
-   DispatchQueue.main.async {
-    self.isLoading = false
-    switch result {
-     case .failure(let error): self.errorMessage = error.localizedDescription
-      print("error: ", error)
-     case .success(let stations):
-      print("--- success with \(stations.stations.count)")
-      self.stations = stations
+ public func fetchStations() {
+     isLoading = true
+     errorMessage = nil
+  
+     let endpoint = URL(string: "https://et.water.ca.gov/api/station")
+  
+     service.fetchStations(url: endpoint) { [unowned self] result in
+      DispatchQueue.main.async {
+       isLoading = false
+       switch result {
+        case .failure(let error): self.errorMessage = error.localizedDescription
+         print("error: ", error)
+         print(String(describing: endpoint))
+        case .success(let stations):
+         self.stations = stations
+         print("--- success with \(stations.stations.count) stations")
+       }
+      }
+     }
     }
-   }
-  }
- }
  
   //MARK: preview helpers
  
