@@ -29,10 +29,9 @@ public struct DayPrecipitationChart: View {
         isExpanded.toggle()
     }
  
- public init(chartValueOne: [HrlyRecord], width: CGFloat, domain: [Int], chartForegroundStyleScale: KeyValuePairs<String, Color>, isExpanded: Bool = false) {
+ public init(chartValueOne: [HrlyRecord], width: CGFloat, chartForegroundStyleScale: KeyValuePairs<String, Color>, isExpanded: Bool = false) {
   self.chartValueOne = chartValueOne
   self.width = width
-  self.domain = domain
   self.chartForegroundStyleScale = chartForegroundStyleScale
   self.isExpanded = isExpanded
  }
