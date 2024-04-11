@@ -59,52 +59,52 @@ public class StationFetcher: ObservableObject {
   
  }
  
- public static func fetchStations(completion: @escaping (Result<[Station], Error>) -> Void) {
-  
-   // Create URL
-  guard let url = URL(string: "https://et.water.ca.gov/api/station") else {
-   completion(.failure(CIMISError.invalidURL))
-   return
-  }
-  
-   // Create URL session data task
-  URLSession.shared.dataTask(with: url) { data, _, error in
-   
-   if let error = error {
-    completion(.failure(error))
-    return
-   }
-   
-   guard let data = data else {
-    completion(.failure(CIMISError.invalidData))
-    return
-   }
-   
-   do {
-     // Parse the JSON data
-    let FileData = try JSONDecoder().decode(StationModel.self, from: data)
-    completion(.success(FileData.stations))
-   } catch {
-    completion(.failure(error))
-   }
-   
-  }.resume()
- }
- 
- public static func fetchStationsWithContinuation() async throws -> [Station] {
-  let stations: [Station] = try await withCheckedThrowingContinuation({ continuation in
-   
-   fetchStations { result in
-    switch result {
-     case .success(let stations):
-      continuation.resume(returning: stations)
-     case .failure(let error):
-      continuation.resume(throwing: error)
-    }
-   }
-  })
-  return stations
- }
+// public static func fetchStations(completion: @escaping (Result<[Station], Error>) -> Void) {
+//  
+//   // Create URL
+//  guard let url = URL(string: "https://et.water.ca.gov/api/station") else {
+//   completion(.failure(CIMISError.invalidURL))
+//   return
+//  }
+//  
+//   // Create URL session data task
+//  URLSession.shared.dataTask(with: url) { data, _, error in
+//   
+//   if let error = error {
+//    completion(.failure(error))
+//    return
+//   }
+//   
+//   guard let data = data else {
+//    completion(.failure(CIMISError.invalidData))
+//    return
+//   }
+//   
+//   do {
+//     // Parse the JSON data
+//    let FileData = try JSONDecoder().decode(StationModel.self, from: data)
+//    completion(.success(FileData.stations))
+//   } catch {
+//    completion(.failure(error))
+//   }
+//   
+//  }.resume()
+// }
+// 
+// public static func fetchStationsWithContinuation() async throws -> [Station] {
+//  let stations: [Station] = try await withCheckedThrowingContinuation({ continuation in
+//   
+//   fetchStations { result in
+//    switch result {
+//     case .success(let stations):
+//      continuation.resume(returning: stations)
+//     case .failure(let error):
+//      continuation.resume(throwing: error)
+//    }
+//   }
+//  })
+//  return stations
+// }
   
  public func fetchStations() {
      isLoading = true
