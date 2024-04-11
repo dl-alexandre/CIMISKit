@@ -56,7 +56,7 @@ public class StationFetcher: ObservableObject {
  
  public init(service: APIServiceProtocol? = nil) {
   self.service = service ?? APIService()
-  fetchAllStations()
+  
  }
  
  public static func fetchStations(completion: @escaping (Result<[Station], Error>) -> Void) {
