@@ -17,17 +17,25 @@ import Charts
 /// )
 
 public struct DayPrecipitationChart: View {
-    let chartValueOne: [HrlyRecord]
-    let width: CGFloat
+ public let chartValueOne: [HrlyRecord]
+ public let width: CGFloat
 //    var appState = AppState()
-    var domain: [Int] = [0, 4]
-    var chartForegroundStyleScale: KeyValuePairs<String, Color>
+ public var domain: [Int] = [0, 4]
+ public var chartForegroundStyleScale: KeyValuePairs<String, Color>
     
     @State private var isExpanded = false
     
-    func expand() {
+    public func expand() {
         isExpanded.toggle()
     }
+ 
+ public init(chartValueOne: [HrlyRecord], width: CGFloat, domain: [Int], chartForegroundStyleScale: KeyValuePairs<String, Color>, isExpanded: Bool = false) {
+  self.chartValueOne = chartValueOne
+  self.width = width
+  self.domain = domain
+  self.chartForegroundStyleScale = chartForegroundStyleScale
+  self.isExpanded = isExpanded
+ }
     
  public var body: some View {
         GeometryReader { geo in
