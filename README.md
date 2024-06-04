@@ -1,4 +1,14 @@
-![CIMISKit Logo](Sources/CIMISKit/Documentation.docc/Images/IMG_0026.jpeg)
+<p align="center">
+    <img src="Sources/CIMISKit/Documentation.docc/Images/logo.png" alt="Ignite logo" width="350" height="345" />
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/macOS-14.0+-2980b9.svg" />
+    <img src="https://img.shields.io/badge/swift-5.9+-8e44ad.svg" />
+    <a href="https://twitter.com/d_creatio">
+        <img src="https://img.shields.io/badge/Contact-@d_creatio-95a5a6.svg?style=flat" alt="Twitter: @d_creatio" />
+    </a>
+</p>
 
 #  CIMISKit
 ### Created by Dalton Alexandre on 4/3/24.
